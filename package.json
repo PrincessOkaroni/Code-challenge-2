@@ -1,0 +1,24 @@
+{
+  "name": "code-challenge-2",
+  "version": "1.0.0",
+  "description": "Event Guest List Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrincessOkaroni/Code-challenge-2.git"
+  },
+  "keywords": [
+    "const",
+    "var",
+    "let"
+  ],
+  "author": "Okaroni Purity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrincessOkaroni/Code-challenge-2/issues"
+  },
+  "homepage": "https://github.com/PrincessOkaroni/Code-challenge-2#readme"
+}
