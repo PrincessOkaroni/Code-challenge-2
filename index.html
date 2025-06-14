@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <h1>Event Guest List Manager</h1>
-    </header>
     <div class="container">
+      <header>
+        <h1>Event Guest List Manager</h1>
+      </header>
       <form id="guest-form">
         <input
           type="text"
@@ -19,15 +19,26 @@
           required
         />
         <select id="guest-category">
+          <option selected disabled>Choose guest-category</option>
           <option value="Friend">Friend</option>
           <option value="Family">Family</option>
           <option value="Colleague">Colleague</option>
-          <option value="Others">Others</option>
         </select>
         <button type="submit">Add Guest</button>
       </form>
       <p id="guest-count">Guests: 0/10</p>
-      <ul id="guest-list"></ul>
+      <table id="guest-list" class="guest-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Added At</th>
+            <th>RSVP</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
   </body>
   <script src="./index.js"></script>
