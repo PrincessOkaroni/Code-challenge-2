@@ -2,7 +2,23 @@
 
 ## Description
 
-The Event Guest List Manager is a browser-based web application built with HTML, JavaScript, and CSS to manage a list of event guests dynamically. Users can add guests by entering their names and selecting a category (Friend, Family, Colleague, or Others) through a form, view the guest list in real-time, and remove guests as needed. The application supports a maximum of 10 guests, displays timestamps for each addition, and includes features like RSVP toggling and color-coded categories for a user-friendly experience. Designed for a code challenge, it emphasizes DOM manipulation, event handling, and responsive design without requiring a page reload.
+The Event Guest List Manager is a browser-based web application built with HTML, JavaScript, and CSS to dynamically manage an event's guest list. Users can add guests by entering their name and selecting a category (Friend, Family, or Colleague) through a form, view the guest list in a table, and perform actions like editing names, deleting guests, or toggling RSVP status (Pending/Confirmed). Key features include:
+
+Color-coded Categories: Guests are categorized with visually distinct color tags (green for Friend, blue for Family, yellow for Colleague).
+
+Timestamps: Each guest entry shows the time they were added.
+
+Edit Functionality: Users can update guest names via an edit button.
+
+Custom Feature (RSVP Toggle): A button allows toggling RSVP status between Pending and Confirmed.
+
+Duplicate Prevention: The app prevents adding or editing guests with the same name and category.
+
+Local Storage: Guest data persists across browser sessions using localStorage.
+
+Responsive Design: The interface adapts to different screen sizes.
+
+The application supports a maximum of 10 guests and is designed for a code challenge, emphasizing DOM manipulation, event handling, and a seamless user experience without page reloads.
 
 ## Project Setup
 
@@ -15,7 +31,7 @@ The Event Guest List Manager is a browser-based web application built with HTML,
 
 2. **Open the project folder:**
 
-   - You can open the folder in your preferred code editor (e.g., VS Code).
+   - You can open the folder in your preferred code editor i.e vs code.
 
 3. **Run the application:**
 
@@ -33,9 +49,16 @@ The Event Guest List Manager is a browser-based web application built with HTML,
    ```
 
 5. **Usage:**
-   - Add guest names and select categories using the form.
-   - View, remove, and manage guests in real-time.
-   - The guest list supports up to 20 entries and displays timestamps and RSVP status.
+
+Enter a guest's name and select a category (Friend, Family, or Colleague) in the form to add them.
+
+View the guest list in a table, showing names, categories, timestamps, RSVP status, and action buttons (Edit, Delete, RSVP toggle).
+
+Edit a guest's name, toggle their RSVP status, or delete them using the respective buttons.
+
+The app prevents duplicate guests (same name and category) and limits the list to 10 guests.
+
+Guest data is saved in localStorage and persists after browser refresh.
 
 **Note:**  
 No additional dependencies are required. All functionality is handled with plain HTML, CSS, and JavaScript.
